@@ -19,7 +19,7 @@ dbConection();
 
 
 //Creando las rutas de mi APP
-//app.use('/api/usuarios',require('./routes/usuarios.routes'));
+app.use('/api/usuarios',require('./routes/usuarios.routes'));
 
 //creando nueva ruta api/login
 app.use('/api/login', require('./routes/auth.route'))
